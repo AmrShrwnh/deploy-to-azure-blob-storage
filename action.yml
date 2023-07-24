@@ -1,4 +1,4 @@
-name: 'Azure Storage Action'
+name: 'Azure Storage Action Updated'
 description: 'You can automate your workflow to deploy files to Azure Blob Storage Container without Azure Credentials'
 inputs:
   connection-string: 
