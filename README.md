@@ -13,7 +13,7 @@ jobs:
     - uses: actions/setup-dotnet@v1
       with:
         dotnet-version: '3.0.100'
-    - uses: lauchacarro/Azure-Storage-Action@master
+    - uses: AmrShrwnh/deploy-to-azure-blob-storage@master 
       with:
         enabled-static-website: 'true'
         folder: 'MyFolder'
