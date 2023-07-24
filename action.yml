@@ -16,6 +16,12 @@ inputs:
   enabled-static-website: 
     description: 'Enabled static website'
     required: false
+  index-document:
+    description: 'Index document path'
+    required: false
+  error-document:
+    description: 'Error document path'
+    required: false
 runs:
   using: 'node12'
   main: 'index.js'
