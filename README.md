@@ -22,3 +22,4 @@ jobs:
         connection-string: ${{ secrets.CONNECTION_STRING }}
 
 ```
+Accepts index-document & error-document as workflow inputs
